@@ -1,0 +1,112 @@
+{"level":"info","message":"Testing database connection...","timestamp":"2025-10-27T11:28:32.608Z"}
+{"level":"info","message":"\n🚀 AirMap Server running on http://localhost:3001","timestamp":"2025-10-27T11:28:34.041Z"}
+{"level":"info","message":"📡 WebSocket server running on ws://localhost:3001","timestamp":"2025-10-27T11:28:34.042Z"}
+{"level":"info","message":"\nAPI Endpoints:","timestamp":"2025-10-27T11:28:34.043Z"}
+{"level":"info","message":"  POST   /api/auth/register","timestamp":"2025-10-27T11:28:34.043Z"}
+{"level":"info","message":"  POST   /api/auth/login","timestamp":"2025-10-27T11:28:34.045Z"}
+{"level":"info","message":"  GET    /api/devices","timestamp":"2025-10-27T11:28:34.046Z"}
+{"level":"info","message":"  POST   /api/devices","timestamp":"2025-10-27T11:28:34.046Z"}
+{"level":"info","message":"  GET    /api/readings","timestamp":"2025-10-27T11:28:34.046Z"}
+{"level":"info","message":"  POST   /api/readings","timestamp":"2025-10-27T11:28:34.047Z"}
+{"level":"info","message":"\nSimulating sensor readings every 5-10 seconds...\n","timestamp":"2025-10-27T11:28:34.048Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:30:51.648Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:30:51.668Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:30:51.972Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:30:51.975Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:30:55.749Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:30:55.791Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:30:56.032Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:30:56.225Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:30:56.235Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:30:56.245Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:30:56.253Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:30:56.281Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:30:56.720Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:30:56.852Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:30:56.962Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:30:57.263Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:31:00.810Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:31:00.832Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:31:13.227Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:31:13.286Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:31:13.350Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:31:13.423Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:31:13.437Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:31:13.491Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:31:16.939Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:31:16.946Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:31:16.953Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:31:16.959Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:31:16.970Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:31:18.246Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:31:21.918Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:05.782Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:32:05.908Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:32:05.939Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:32:06.000Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:32:06.147Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:32:06.170Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:32:10.799Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:32:10.818Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:52.023Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:52.031Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:52.031Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:52.032Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:52.032Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:52.039Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:52.039Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:52.039Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:52.039Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:32:54.652Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:32:54.680Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:54.698Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:54.706Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:32:54.723Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:32:54.733Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:32:54.736Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:32:54.794Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:32:54.799Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:32:55.042Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:32:55.047Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:32:55.052Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:32:57.695Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:32:57.697Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:32:57.698Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:32:57.705Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:32:57.717Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:32:57.719Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:32:57.723Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:32:59.691Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:33:02.704Z"}
+{"level":"info","message":"WebSocket client disconnected","timestamp":"2025-10-27T11:33:06.961Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:33:07.023Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:33:07.035Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:33:07.041Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:33:07.044Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:33:07.053Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:33:08.199Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:33:08.208Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:33:08.210Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:33:08.215Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:33:08.228Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:33:11.580Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:33:11.586Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:33:11.975Z"}
+{"ip":"::1","level":"info","message":"POST /api/devices","timestamp":"2025-10-27T11:33:46.947Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:33:47.031Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:33:47.037Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:33:47.042Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:33:47.080Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:33:47.093Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:33:49.466Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:33:49.468Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:33:49.470Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:33:49.479Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:33:49.555Z"}
+{"level":"info","message":"WebSocket client connected","timestamp":"2025-10-27T11:33:53.774Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:33:53.782Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:33:53.789Z"}
+{"ip":"::1","level":"info","message":"GET /api/devices","timestamp":"2025-10-27T11:33:53.792Z"}
+{"ip":"::1","level":"info","message":"GET /api/readings","timestamp":"2025-10-27T11:33:53.806Z"}
+{"ip":"::1","level":"info","message":"POST /api/contact","timestamp":"2025-10-27T11:34:17.448Z"}
+{"email":"belyseniyodushima@gmail.com","level":"info","message":"Contact form submission: jhbsjkchiacanchc","name":"NIYODUSHIMA","subject":"nbsnbj","timestamp":"2025-10-27T11:34:17.456Z"}

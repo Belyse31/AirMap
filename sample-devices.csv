@@ -1,0 +1,6 @@
+deviceId,name,lat,lng,status,type,location
+dev-011,Airport Sensor,-1.9686,30.1395,active,air-quality-sensor,Kigali International Airport
+dev-012,University Sensor,-1.9578,30.0619,active,air-quality-sensor,University of Rwanda
+dev-013,Market Sensor,-1.9447,30.0594,active,air-quality-sensor,Kimironko Market
+dev-014,Hospital Sensor,-1.9403,30.0587,active,air-quality-sensor,King Faisal Hospital
+dev-015,Stadium Sensor,-1.9701,30.1044,active,air-quality-sensor,Amahoro Stadium

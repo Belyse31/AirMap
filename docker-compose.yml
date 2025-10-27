@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:
+  # PostgreSQL database
+  postgres:
+    image: postgres:15-alpine
+    container_name: airmap-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: airmap
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: wizard
+      POSTGRES_INITDB_ARGS: "-U postgres"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - airmap-network
+
+  # React frontend
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: airmap-frontend
+    ports:
+      - "3000:80"
+    environment:
+      - VITE_API_BASE_URL=http://localhost:3001/api
+      - VITE_WS_URL=ws://localhost:3001
+    depends_on:
+      - backend
+    networks:
+      - airmap-network
+
+  # Backend server
+  backend:
+    build:
+      context: ./mock-server
+      dockerfile: Dockerfile
+    container_name: airmap-backend
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./mock-server/data:/app/data
+      - ./mock-server/logs:/app/logs
+    environment:
+      - NODE_ENV=production
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=airmap
+      - DB_USER=postgres
+      - DB_PASSWORD=wizard
+      - JWT_SECRET=your-secret-key-change-in-production
+      - MQTT_ENABLED=false
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - airmap-network
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  airmap-network:
+    driver: bridge
