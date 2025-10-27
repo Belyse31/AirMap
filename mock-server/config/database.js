@@ -1,21 +1,27 @@
 import pg from 'pg';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 
 const { Pool } = pg;
 
 /**
  * PostgreSQL connection pool
- */
-export const pool = new Pool({
-  host: process.env.DB_HOST || 'dpg-d3vn3s7diees73f4lqeg-a',
-  port: parseInt(process.env.DB_PORT || '5432', 10),
-  database: process.env.DB_NAME || 'default_airmap',
-  user: process.env.DB_USER || 'airmap',
-  password: process.env.DB_PASSWORD || 's1Yp64IqAIiI0pkwrJ4p7r12YNUIf3ez',
-  max: 20, // Maximum number of clients in the pool
+ */export const pool = new Pool({
+  host: process.env.DB_HOST,
+  port: process.env.DB_PORT || 5432,
+  database: process.env.DB_NAME,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  ssl: {
+    rejectUnauthorized: false
+  },
+  max: 20,
   idleTimeoutMillis: 30000,
-  connectionTimeoutMillis: 5000, // Increased timeout for Render
-  ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false,
+  connectionTimeoutMillis: 5000,
 });
+
 
 /**
  * Test database connection
