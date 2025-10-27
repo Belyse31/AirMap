@@ -56,14 +56,14 @@ export function Contact() {
             <ContactInfoCard
               icon={<Mail className="w-6 h-6" />}
               title="Email"
-              content="info@airmap.io"
-              link="mailto:info@airmap.io"
+              content="belyseniyodushima@gmail.com"
+              link="mailto:belyseniyodushima@gmail.com"
             />
             <ContactInfoCard
               icon={<Phone className="w-6 h-6" />}
               title="Phone"
-              content="+250 788 123 456"
-              link="tel:+250788123456"
+              content="+250 788 448 948"
+              link="tel:+250788448948"
             />
             <ContactInfoCard
               icon={<MapPin className="w-6 h-6" />}
@@ -173,7 +173,7 @@ export function Contact() {
               <div className="space-y-4">
                 <FAQItem
                   question="How can I add a sensor to the network?"
-                  answer="Contact us through this form or email us at info@airmap.io. We'll guide you through the sensor deployment process and provide technical specifications."
+                  answer="Contact us through this form or email us at belyseniyodushima@gmail.com. We'll guide you through the sensor deployment process and provide technical specifications."
                 />
                 <FAQItem
                   question="Is the data publicly available?"
