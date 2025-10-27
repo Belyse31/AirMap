@@ -346,9 +346,10 @@ async function start() {
       await fs.mkdir('./logs', { recursive: true });
     } catch {}
 
-    server.listen(PORT, () => {
-      logger.info(`\n🚀 AirMap Server running on http://localhost:${PORT}`);
-      logger.info(`📡 WebSocket server running on ws://localhost:${PORT}`);
+    const HOST = process.env.HOST || '0.0.0.0';
+    server.listen(PORT, HOST, () => {
+      logger.info(`\n🚀 AirMap Server running on http://${HOST}:${PORT}`);
+      logger.info(`📡 WebSocket server running on ws://${HOST}:${PORT}`);
       logger.info(`\nAPI Endpoints:`);
       logger.info(`  POST   /api/auth/register`);
       logger.info(`  POST   /api/auth/login`);

@@ -6,14 +6,15 @@ const { Pool } = pg;
  * PostgreSQL connection pool
  */
 export const pool = new Pool({
-  host: process.env.DB_HOST || 'localhost',
-  port: process.env.DB_PORT || 5432,
-  database: process.env.DB_NAME || 'airmap',
-  user: process.env.DB_USER || 'postgres',
-  password: process.env.DB_PASSWORD || 'wizard',
+  host: process.env.DB_HOST || 'dpg-d3vn3s7diees73f4lqeg-a',
+  port: parseInt(process.env.DB_PORT || '5432', 10),
+  database: process.env.DB_NAME || 'default_airmap',
+  user: process.env.DB_USER || 'airmap',
+  password: process.env.DB_PASSWORD || 's1Yp64IqAIiI0pkwrJ4p7r12YNUIf3ez',
   max: 20, // Maximum number of clients in the pool
   idleTimeoutMillis: 30000,
-  connectionTimeoutMillis: 2000,
+  connectionTimeoutMillis: 5000, // Increased timeout for Render
+  ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false,
 });
 
 /**

@@ -1,0 +1,45 @@
+services:
+  # Backend API Service
+  - type: web
+    name: airmap-backend
+    runtime: node
+    rootDir: ./mock-server
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        sync: false # Set this manually in Render dashboard
+      - key: DB_HOST
+        fromDatabase:
+          name: airmap-db
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: airmap-db
+          property: port
+      - key: DB_NAME
+        fromDatabase:
+          name: airmap-db
+          property: database
+      - key: DB_USER
+        fromDatabase:
+          name: airmap-db
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: airmap-db
+          property: password
+      - key: MQTT_ENABLED
+        value: "false"
+      - key: CORS_ORIGIN
+        value: "*"
+
+databases:
+  # PostgreSQL Database
+  - name: airmap-db
+    databaseName: airmap
+    user: airmap_user
+    plan: free # Change to paid plan for production
+

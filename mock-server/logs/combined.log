@@ -1,0 +1,11 @@
+{"level":"info","message":"Testing database connection...","timestamp":"2025-10-27T13:27:15.920Z"}
+{"level":"info","message":"\n🚀 AirMap Server running on http://0.0.0.0:3001","timestamp":"2025-10-27T13:27:17.405Z"}
+{"level":"info","message":"📡 WebSocket server running on ws://0.0.0.0:3001","timestamp":"2025-10-27T13:27:17.406Z"}
+{"level":"info","message":"\nAPI Endpoints:","timestamp":"2025-10-27T13:27:17.407Z"}
+{"level":"info","message":"  POST   /api/auth/register","timestamp":"2025-10-27T13:27:17.408Z"}
+{"level":"info","message":"  POST   /api/auth/login","timestamp":"2025-10-27T13:27:17.409Z"}
+{"level":"info","message":"  GET    /api/devices","timestamp":"2025-10-27T13:27:17.409Z"}
+{"level":"info","message":"  POST   /api/devices","timestamp":"2025-10-27T13:27:17.410Z"}
+{"level":"info","message":"  GET    /api/readings","timestamp":"2025-10-27T13:27:17.411Z"}
+{"level":"info","message":"  POST   /api/readings","timestamp":"2025-10-27T13:27:17.411Z"}
+{"level":"info","message":"\nSimulating sensor readings every 5-10 seconds...\n","timestamp":"2025-10-27T13:27:17.412Z"}
